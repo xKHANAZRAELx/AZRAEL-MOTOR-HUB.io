@@ -1,0 +1,217 @@
+body{
+    background-color: goldenrod;
+}
+
+#defaultfont{
+    font-family:'amsterdam-laviera.zip';
+    text-shadow: 4px 4px 4px blue;
+
+}
+
+@font-face {
+    font-family:'amsterdam-laviera.zip';
+    src: url(fonts/GunraceDemoRegular.ttf);
+}
+#FONT2{
+    font-family:'amsterdam-laviera.zip';
+    font-size:25px;
+    color: goldenrod;
+   border-color: goldenrod;
+    border-radius: 15PX;
+    border-style: groove;
+}
+#FONT1{
+    font-family:'amsterdam-laviera.zip';
+    font-size:25px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    margin-left: 20px;
+    color: aqua;
+    border-style:groove;
+    border-radius: 100px; 
+    border-color: aqua;
+}
+#BORDER{
+border-style: groove;
+border-color: aqua;
+}
+
+.card
+{
+    margin-top: 10px;
+    float: left;
+    transform: scale(1,1);
+    color: aqua;
+    background-color: #343A40;
+    border-style:groove;
+}
+
+#fontcolor{
+    color: goldenrod;
+}
+
+
+#HOVER1:hover{
+    transform: scale(1,1.3); 
+}
+
+
+#FONT3{
+    font-family:'amsterdam-laviera.zip';
+    font-size:25px;
+    color: goldenrod;
+    
+}
+#FONT4{
+    font-family:'amsterdam-laviera.zip';
+    font-size:25px;
+    color: black;
+    
+}
+
+
+
+/* facebook */
+.facebook{
+    color: blue;
+}
+.facebook:hover{
+    color: goldenrod;
+}
+/* linkedin */
+.linkedin{
+    color: #0077b5;
+}
+.linkedin:hover{
+    color: goldenrod;
+}
+/* .instagram */
+.instagram{
+    color: #b93584;
+}
+.instagram:hover{
+    color: goldenrod;
+}
+/* twitter */
+.twitter{
+    color: #1DA1F2;
+}
+.twitter:hover{
+    color: goldenrod;
+}
+/* envelope EMAIL */
+.envelope{
+    color: aqua;
+}
+
+
+#font5{
+  margin-top: 15PX;
+  margin-left: 20px;
+  font-family:'amsterdam-laviera.zip';
+  margin-bottom: 15px;
+}
+
+#ABOUTUSFONT1{
+    font-family:'amsterdam-laviera.zip';
+    font-size:40px;
+    text-shadow: 12px 12px 12px blue;
+    word-spacing: 5px;
+}
+
+#texttransform1{
+    text-transform: uppercase;
+    font-family:'amsterdam-laviera.zip';
+    text-shadow: 12px 12px 12px blue;
+
+    
+}
+
+#aboutusimg{
+    margin-top: 30px;
+}
+
+.wrapper {
+    height: 100vh;
+    background: #000;
+    background: url("img1/lamborgini\ wrapper\ 1000x600og.png");
+    background-size: cover;
+    width: 100%
+}
+
+.overlay {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8)
+}
+
+.contact-us {
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.contact-us h3,
+p {
+    color: aqua
+}
+
+.address {
+    margin-top: 5px !important;
+    margin-left: 15px
+}
+
+.address span {
+    color: aqua
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.icons i {
+    font-size: 20px
+}
+
+.forms {
+    padding: 20px
+}
+
+.inputs input {
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 4px solid aqua
+}
+
+.inputs input:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 3px solid goldenrod;
+    box-shadow: none
+}
+
+.inputs textarea {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 4px solid aqua;
+    width: 100%;
+    resize: none
+}
+
+.inputs textarea:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 3px solid goldenrod;
+    box-shadow: none;
+    resize: none
+}
+
+.form-control {
+    padding: .375rem .25rem
+}
